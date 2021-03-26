@@ -5,7 +5,7 @@ block content
     h1.page-title All notes
 
     .notes
-      each item in n 
+      each note in n 
         div.note-wrapper
-          a.note(href=`/notes/${item.id}`)= item.title 
-          a.delete(href=`/notes/${item.id}/delete`) Delete
+          a.note(href=`/notes/${note.id}`)= note.title 
+          a.delete(href=`/notes/${note.id}/delete`) Delete

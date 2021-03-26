@@ -121,3 +121,27 @@ margin-bottom: 10px;
 	color: #fff;
 	border: none;
 }
+
+/*.note-title{
+	padding: 20px;
+}*/
+
+.error{
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 10px;
+	border: 1px solid red;
+	color: red;
+	font-size: 1.3rem;
+}
+
+.success{
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 10px;
+	border: 1px solid green;
+	color: green;
+	font-size: 1.3rem;
+}

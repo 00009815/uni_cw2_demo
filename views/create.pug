@@ -4,6 +4,12 @@ block content
  main.container 
    h1.page-title Create note form
 
+   if error
+     p.error Error occured. Try again.
+
+   if success
+     p.success Note is saved.
+
    form.form(method='POST' action='/create')
      label Title
      input.input(type='text' name='title')
